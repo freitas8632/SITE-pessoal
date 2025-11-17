@@ -1,117 +1,86 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramon - Página Pessoal</title>
-
-    <script src="/_sdk/element_sdk.js"></script>
-    <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
-    <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
-
-    <link rel="stylesheet" href="style.css">
-
-    <style>@view-transition { navigation: auto; }</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramon - Página Pessoal</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <main class="container">
-        <header class="header fade-in-element">
-            <div class="profile-avatar" id="avatar">R</div>
-            <h1 class="name" id="nome">Ramon</h1>
-            <p class="tagline">Estudante • Atleta • Amigo de Todos</p>
-        </header>
+  <main class="container">
+    <header class="header fade-in-element">
+      <div class="profile-avatar" id="avatar">R</div>
+      <h1 class="name" id="nome">Ramon</h1>
+      <p class="tagline">Estudante • Atleta • Amigo de Todos</p>
+    </header>
 
-        <div class="content-grid">
-            <section class="card fade-in-element">
-                <h2 class="card-title" id="sobre-titulo">
-                    <span class="card-icon">😊</span> Sobre Mim
-                </h2>
-                <div class="card-content" id="descricao-pessoal">
-                    Sou uma pessoa extrovertida e amigável que procura deixar todos perto de mim bem!
-                </div>
-            </section>
-
-            <section class="card fade-in-element">
-                <h2 class="card-title" id="rotinas-titulo">
-                    <span class="card-icon">⏰</span> Minhas Rotinas
-                </h2>
-                <ul class="routine-list">
-                    <li class="routine-item">
-                        <div class="routine-time">Manhã</div>Acordo cedo e venho para o colégio
-                    </li>
-                    <li class="routine-item">
-                        <div class="routine-time">Tarde</div>Passo o dia no projeto da CSN
-                    </li>
-                    <li class="routine-item">
-                        <div class="routine-time">Noite</div>Treinos e estudos
-                    </li>
-                    <li class="routine-item">
-                        <div class="routine-time">Feriados/Folgas</div>Saio com meus amigos
-                    </li>
-                </ul>
-            </section>
+    <div class="content-grid">
+      <section class="card fade-in-element">
+        <h2 class="card-title" id="sobre-titulo"><span class="card-icon">😊</span> Sobre Mim</h2>
+        <div class="card-content" id="descricao-pessoal">
+          Sou uma pessoa extrovertida e amigável que procura deixar todos perto de mim bem! Gosto muito de fazer amizades e de conversar com todos sobre diversos assuntos. Acredito que a vida fica mais interessante quando compartilhamos experiências e criamos conexões genuínas.
         </div>
+      </section>
 
-        <section class="card fade-in-element">
-            <h2 class="card-title" id="futebol-titulo">
-                <span class="card-icon">⚽</span> Minha Paixão pelo Futebol
-            </h2>
-            <div class="card-content" id="futebol-descricao">
-                O futebol faz parte da minha vida desde pequeno!
-            </div>
-
-            <div class="activities-grid">
-                <div class="activity-item" style="background: linear-gradient(135deg, #00a859 0%, #005a2d 100%); color: white;">
-                    <div class="activity-title">🏆 Coritiba</div>
-                    <div class="activity-frequency">Meu time do coração</div>
-                </div>
-
-                <div class="activity-item" style="background: linear-gradient(135deg, #034694 0%, #001f3f 100%); color: white;">
-                    <div class="activity-title">💙 Chelsea FC</div>
-                    <div class="activity-frequency">Premier League</div>
-                </div>
-            </div>
-        </section>
-
-        <section class="card fade-in-element">
-            <h2 class="card-title" id="atividades-titulo">
-                <span class="card-icon">⚽</span> Atividades Semanais
-            </h2>
-
-            <div class="activities-grid">
-                <div class="activity-item">
-                    <div class="activity-title">⚽ Futebol</div>
-                    <div class="activity-frequency">2 vezes por semana</div>
-                </div>
-
-                <div class="activity-item">
-                    <div class="activity-title">🏭 Projeto CSN</div>
-                    <div class="activity-frequency">4 dias por semana</div>
-                </div>
-
-                <div class="activity-item">
-                    <div class="activity-title">💪 Treinos Noturnos</div>
-                    <div class="activity-frequency">Algumas vezes por semana</div>
-                </div>
-            </div>
-        </section>
-
-        <div class="social-links fade-in-element">
-            <a href="#" class="social-link">💬</a>
-            <a href="#" class="social-link">🤝</a>
-            <a href="#" class="social-link">🎉</a>
-        </div>
-    </main>
-
-    <div class="floating-social">
-        <a href="https://www.instagram.com" target="_blank" class="floating-social-link instagram">
-            IG
-        </a>
-        <a href="https://wa.me/" target="_blank" class="floating-social-link whatsapp">
-            WA
-        </a>
+      <section class="card fade-in-element">
+        <h2 class="card-title" id="rotinas-titulo"><span class="card-icon">⏰</span> Minhas Rotinas</h2>
+        <ul class="routine-list">
+          <li class="routine-item">
+            <div class="routine-time">Manhã</div>
+            Acordo cedo e venho para o colégio
+          </li>
+          <li class="routine-item">
+            <div class="routine-time">Tarde</div>
+            Passo o dia no projeto da CSN
+          </li>
+          <li class="routine-item">
+            <div class="routine-time">Noite</div>
+            Treinos e estudos
+          </li>
+          <li class="routine-item">
+            <div class="routine-time">Feriados/Folgas</div>
+            Saio com meus amigos para resenhar um pouco
+          </li>
+        </ul>
+      </section>
     </div>
 
-    <script src="script.js"></script>
+    <section class="card fade-in-element">
+      <h2 class="card-title" id="futebol-titulo"><span class="card-icon">⚽</span> Minha Paixão pelo Futebol</h2>
+      <div class="card-content" id="futebol-descricao">
+        O futebol faz parte da minha vida desde pequeno! Sou torcedor apaixonado do Coritiba e também torço para o Chelsea. O futebol me ensinou valores como trabalho em equipe, dedicação e nunca desistir dos sonhos.
+      </div>
+
+      <div class="activities-grid">
+        <div class="activity-item" style="background: linear-gradient(135deg, #00a859 0%, #005a2d 100%); color: white;">
+          <div class="activity-title">🏆 Coritiba</div>
+          <div class="activity-frequency">Meu time do coração</div>
+        </div>
+        <div class="activity-item" style="background: linear-gradient(135deg, #034694 0%, #001f3f 100%); color: white;">
+          <div class="activity-title">💙 Chelsea FC</div>
+          <div class="activity-frequency">Premier League</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card fade-in-element">
+      <h2 class="card-title" id="atividades-titulo"><span class="card-icon">⚽</span> Atividades Semanais</h2>
+      <div class="activities-grid">
+        <div class="activity-item">
+          <div class="activity-title">⚽ Futebol</div>
+          <div class="activity-frequency">2 vezes por semana</div>
+        </div>
+        <div class="activity-item">
+          <div class="activity-title">🏭 Projeto CSN</div>
+          <div class="activity-frequency">4 dias por semana</div>
+        </div>
+        <div class="activity-item">
+          <div class="activity-title">💪 Treinos Noturnos</div>
+          <div class="activity-frequency">Algumas vezes por semana</div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
