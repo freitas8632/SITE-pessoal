@@ -1,6 +1,5 @@
 const defaultConfig = {
    page_title: "Bem-vindo à Minha Página!",
-   
    subtitle: "Extrovertido, amigável e apaixonado por futebol",
    about_title: "Sobre Mim",
    routine_title: "Minha Rotina Diária",
